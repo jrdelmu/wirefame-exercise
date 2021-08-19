@@ -5,26 +5,41 @@ main{
   margin: auto;
 }
 
-nav{
-  background-color: gray;
-  padding: 25px;
-  flex-direction: row;
-}
-header, ul{
+header{
 display:flex;
 align-items: center;
 justify-content: space-around;
+background-color: gray;
+padding: 25px;
+flex-direction: row;
+margin: auto;
 }
-/* ul {
-  display:flex;
+div{
+  display: flex;
+  align-items: center;
+  /* margin-right: 500px; */
+  }
+nav{
+  display: flex;
+  margin: auto;
+  flex-direction: row;
+  }
+
+
+ul {
+  display: flex;
   list-style:none;
   padding: 0px;
+  margin: 0px;
   justify-content: space-between;
 }
+
 li{
+  display: flex;
   border:1px solid grey;
-  padding:5px 10px;
-}  */
+  padding:5px 75px;
+  justify-content: space-between
+} 
 
 .mainimg{
   display: flex;
@@ -33,6 +48,7 @@ li{
   align-items: center;
   padding: 20px;
 }
+
 .rowimg{
   display: flex;
   flex-direction: row;
@@ -40,6 +56,7 @@ li{
   align-items:center;
   padding: 20px;
 }
+
 .textimg{
   display:flex;
 align-items: center;
